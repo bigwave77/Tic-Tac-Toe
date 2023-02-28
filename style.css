@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Roboto Slab", serif;
+  font-family: "Tilt Neon", cursive;
+}
+
+body {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 150px 1fr 80px;
+}
+
+button,
+input {
+  font-family: inherit;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(36, 65, 66);
+  color: white;
+  font-size: 5rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(177, 163, 143);
+  box-shadow: 0 3px 5px black;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  grid-template-rows: repeat(3, 150px);
+}
+
+button {
+  font-size: 6rem;
+  text-align: center;
+}
+
+.footer {
+  background-color: rgb(109, 130, 131);
+}
